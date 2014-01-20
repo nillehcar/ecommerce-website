@@ -73,3 +73,27 @@ small, .milli {
 .brand-family {
 	font-family: 'Roboto Slab', serif;
 }
+
+.brand-color {
+	color: #E74C3C;
+}
+
+a,
+a:link {
+	color: #E74C3C;
+	text-decoration: none;
+	border-bottom: 0.1em solid rgba(255,153,153,0.5);
+	transition: all 200ms linear;
+}
+
+a:hover,
+a:focus,
+a:active {
+		color: #3498DB;
+		border-bottom-color: #2980B9;
+}
+
+a:visited {
+		color: #3498DB;
+		border-bottom-color: #2980B9;
+}
