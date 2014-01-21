@@ -84,20 +84,17 @@ a,
 a:link {
 	color: #E74C3C;
 	text-decoration: none;
-	border-bottom: 0.1em solid rgba(255,153,153,0.5);
-	transition: all 200ms linear;
+}
+
+a:visited {
+	color: #2C3E50;
 }
 
 a:hover,
 a:focus,
 a:active {
-		color: #3498DB;
-		border-bottom-color: #2980B9;
-}
-
-a:visited {
-		color: #3498DB;
-		border-bottom-color: #2980B9;
+	color: #ED4E3E;
+	border-bottom: 5px solid #ED4E3E;
 }
 
 blockquote {
@@ -130,4 +127,25 @@ dfn {
 
 del, s {
 	color: #ED4E3E;
+}
+
+table {
+	width: 80%;
+	margin: auto;
+	padding: .5rem;
+}
+
+td, th {
+	text-align: center;
+	padding: .25rem;
+}
+
+tr:nth-child(even), thead {
+	background-color: #ECF0F1;
+}
+
+caption {
+	caption-side: bottom;
+	font-size: 0.9rem;
+	padding-bottom: 1.5rem;
 }
