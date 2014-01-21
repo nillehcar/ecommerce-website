@@ -6,6 +6,7 @@
 
 html {
   font: normal 100%/1.5 'Roboto', sans-serif; /* 16px/24px */
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -18,6 +19,7 @@ h1, h2, h3, h4, h5, h6,
 cite, th {
 	font-family: 'Roboto Slab', serif;
 	text-transform: uppercase;
+	color: #2C3E50;
 }
 
 .yotta {
@@ -96,4 +98,36 @@ a:active {
 a:visited {
 		color: #3498DB;
 		border-bottom-color: #2980B9;
+}
+
+blockquote {
+	background-color: #ECF0F1;
+	padding: 1.75rem;
+	opacity
+}
+
+sup, sub, data, q {
+	font-family: 'Roboto SLab', serif;
+}
+
+mark {
+	color: #fff;
+	background-color: #ED4E3E;
+}
+
+b {
+	font-weight: 400;
+}
+
+i {
+	font-style: italic;
+}
+
+dfn {
+	color: #ED4E3E;
+	font-style: italic;
+}
+
+del, s {
+	color: #ED4E3E;
 }
