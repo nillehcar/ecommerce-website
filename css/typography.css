@@ -94,7 +94,7 @@ a:hover,
 a:focus,
 a:active {
 	color: #ED4E3E;
-	border-bottom: 5px solid #ED4E3E;
+	border-bottom: 4px solid #ED4E3E;
 }
 
 blockquote {
@@ -148,4 +148,23 @@ caption {
 	caption-side: bottom;
 	font-size: 0.9rem;
 	padding-bottom: 1.5rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before {
+	content: "»";
+	position: absolute;
+	left: -1.2em;
+}
+
+::selection {
+	background-color: #3498DB;
+	color: #fff;
 }
