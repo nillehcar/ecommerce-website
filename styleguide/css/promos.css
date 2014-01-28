@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.small-promo {
- 	margin: 0;
+.promo {
+ 	padding: 1rem;
 }
 
 .promo-text {
