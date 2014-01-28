@@ -1,3 +1,29 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.btn,
+.btn:link,
+.btn:visited {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	display: inline-block;
+	padding: 0.75em 2em;
+	background: #3498DB;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+	background-color: #E74C3C;
+}
+
+.btn:hover,
+.btn-alt:hover {
+	color: #fff;
+	background-color: #2C3E50;
+	text-decoration: none;
+	border-bottom: none;
+}
