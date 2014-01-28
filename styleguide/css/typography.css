@@ -170,3 +170,7 @@ ul li:before {
 	background-color: #3498DB;
 	color: #fff;
 }
+
+.space-none {
+	margin-bottom: 0;
+}
