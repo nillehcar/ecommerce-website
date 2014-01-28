@@ -5,8 +5,14 @@
  	padding: 1rem;
 }
 
-.promo-text {
+.promo-text-small {
 	position: relative;
 	z-index: 100;
 	bottom: 200px;
+}
+
+.promo-text-large {
+	position: relative;
+	z-index: 100;
+	bottom: 300px;
 }
