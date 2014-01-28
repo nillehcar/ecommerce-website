@@ -174,3 +174,7 @@ ul li:before {
 .space-none {
 	margin-bottom: 0;
 }
+
+.center {
+	text-align: center;
+}
