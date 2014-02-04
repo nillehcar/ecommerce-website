@@ -154,6 +154,7 @@ caption {
 
 ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 ul li {
@@ -161,7 +162,7 @@ ul li {
 }
 
 ul li:before {
-	content: "»";
+	content: "";
 	position: absolute;
 	left: -1.2em;
 }
