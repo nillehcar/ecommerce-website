@@ -5,11 +5,16 @@
 footer {
 	background-color: #ECF0F1;
 	height: 12rem;
+	padding-top: 1.5rem;
+}
+
+.legal {
+	margin-top: 1.5rem;
 }
 
 /* social buttons */
-.social ul{
-	margin-top: 5rem;
+.social li {
+	padding: 1rem .5rem 0;
 }
 
 .social li a,
@@ -27,23 +32,24 @@ footer {
 	-o-border-radius: 50%;
 	border-radius: 50%;
 	color: #fff;    
-	-webkit-box-shadow: inset 0px 0px 0px 40px #000;
-	-moz-box-shadow: inset 0px 0px 0px 40px #000;
-	-ms-box-shadow: inset 0px 0px 0px 40px #000;
-	-o-box-shadow: inset 0px 0px 0px 40px #000;
-	box-shadow: inset 0px 0px 0px 40px #000;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #3498DB;
+	-moz-box-shadow: inset 0px 0px 0px 40px #3498DB;
+	-ms-box-shadow: inset 0px 0px 0px 40px #3498DB;
+	-o-box-shadow: inset 0px 0px 0px 40px #3498DB;
+	box-shadow: inset 0px 0px 0px 40px #3498DB;
 
 }
 
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
-    -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
-    -moz-box-shadow: inset 0px 0px 0px 3px #fff;
-    -ms-box-shadow: inset 0px 0px 0px 3px #fff;
-    -o-box-shadow: inset 0px 0px 0px 3px #fff;
-    box-shadow: inset 0px 0px 0px 3px #fff;
-    color: #000;
+    -webkit-box-shadow: inset 0px 0px 0px 3px #ECF0F1;
+    -moz-box-shadow: inset 0px 0px 0px 3px #ECF0F1;
+    -ms-box-shadow: inset 0px 0px 0px 3px #ECF0F1;
+    -o-box-shadow: inset 0px 0px 0px 3px ##ECF0F1;
+    box-shadow: inset 0px 0px 0px 3px #ECF0F1;
+    color: #3498DB;
+	border-bottom: none;
 }
 
 .ease-all{
@@ -59,4 +65,15 @@ footer {
     white-space: nowrap;
     overflow: hidden;
     display: block;
+}
+
+@media only screen and (min-width:30em) {
+	.legal {
+		margin-top: .5rem;
+	}
+	
+	.social li {
+		padding: 1rem 1rem 0;
+	}
+
 }
