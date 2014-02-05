@@ -5,6 +5,10 @@
 	padding: .25rem;
 }
 
+.search-field {
+	padding-top: 1rem;
+}
+
 @media only screen and (min-width:30em) {
 	.nav li {
 		padding: 1rem;
@@ -12,6 +16,10 @@
 	
 	.nav a {
 		font-size: 1.1250rem;
+	}
+	
+	.search-field {
+		padding-top: 0;
 	}
 }
 
