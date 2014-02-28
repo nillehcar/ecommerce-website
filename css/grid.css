@@ -1,5 +1,6 @@
 .grid {
 	overflow: hidden;
+	padding-bottom: 2rem;
 }
 
 .unit {
@@ -35,9 +36,13 @@
 	.unit-m-1-2 {
 		width: 50%;
 	}
+	
+	.unit-m-2-3 {
+		width: 66.66%;
+	}
 }
 
-@media only screen and (min-width:50em) {
+@media only screen and (min-width:80em) {
 	.unit-l-1-3 {
 		width: 33.33%;
 	}

@@ -27,3 +27,39 @@ html {
 	display: block;
 	width: 100%;
 }
+
+.margin {
+  margin: 20px;
+}
+
+hr {
+	display:none;
+}
+
+@media only screen and (min-width:33em) {
+
+	.margin {
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+	hr {
+		display: block;
+		height: 3px;
+		background-color: #E74C3C;
+		border-color: #E74C3C;
+		margin: 20px 130px 35px;
+	}
+
+}
+
+@media only screen and (min-width:50em) {
+	hr {
+		margin: 20px 175px;
+	}
+	
+	.margin {
+		margin-left: 130px;
+		margin-right: 130px;
+	}
+}
