@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.search-field {
+  background: #fff;
+}
+
+input.searchField {
+	width: 10px;
+	height: 10px;
+	padding: 20px 0 20px 40px;
+	line-height: 10px;
+	border: 0;
+	background-color: #ECF0F1;
+	background-image: url(../images/search.svg);
+	background-repeat: no-repeat;
+	background-position: 9px center;
+	background-size: auto 50%;
+	border-radius: 30px;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+input.searchField:focus {
+	outline: none;
+	width: 300px;
+	padding-left: 45px;
+	background-position: 10px center;
+}
+
+
+

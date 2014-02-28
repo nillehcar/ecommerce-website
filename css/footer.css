@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* footer */
+footer {
+	background-color: #ECF0F1;
+	height: 15rem;
+	padding-top: 1.5rem;
+}
+
+.legal {
+	margin-top: 1.5rem;
+}
+
+/* social buttons */
+.social li {
+	padding: 1rem .5rem 0;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	text-align:center;
+	padding-top: 0.5rem;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	color: #fff;    
+	-webkit-box-shadow: inset 0px 0px 0px 40px #3498DB;
+	-moz-box-shadow: inset 0px 0px 0px 40px #3498DB;
+	-ms-box-shadow: inset 0px 0px 0px 40px #3498DB;
+	-o-box-shadow: inset 0px 0px 0px 40px #3498DB;
+	box-shadow: inset 0px 0px 0px 40px #3498DB;
+
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+    -webkit-box-shadow: inset 0px 0px 0px 3px #ECF0F1;
+    -moz-box-shadow: inset 0px 0px 0px 3px #ECF0F1;
+    -ms-box-shadow: inset 0px 0px 0px 3px #ECF0F1;
+    -o-box-shadow: inset 0px 0px 0px 3px ##ECF0F1;
+    box-shadow: inset 0px 0px 0px 3px #ECF0F1;
+    color: #3498DB;
+	border-bottom: none;
+}
+
+.ease-all{
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+}
+
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+@media only screen and (min-width:30em) {
+	.legal {
+		margin-top: .5rem;
+	}
+	
+	.social li {
+		padding: 1rem 1rem 0;
+	}
+
+}

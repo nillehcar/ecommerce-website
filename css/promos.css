@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.promo {
+ 	padding: 1rem;
+}
+
+.promo-text-small {
+	position: relative;
+	z-index: 100;
+	bottom: 200px;
+}
+
+.promo-text-large {
+	position: relative;
+	z-index: 100;
+	bottom: 150px;
+}
+
+@media only screen and (min-width:50em) {
+	.promo-text-large {
+		bottom: 250px;
+	}
+	
+	.promo-text-large p {
+		font-size: 1.2656rem;
+	}
+}
