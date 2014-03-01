@@ -14,12 +14,13 @@
 .promo-text-large {
 	position: relative;
 	z-index: 100;
-	bottom: 150px;
+	bottom: 175px;
 }
 
-@media only screen and (min-width:50em) {
+@media only screen and (min-width:60em) {
 	.promo-text-large {
-		bottom: 250px;
+		bottom: 500px;
+		font-size: 3rem;
 	}
 	
 	.promo-text-large p {
