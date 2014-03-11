@@ -22,16 +22,34 @@
 	bottom: 200px;
 }
 
+.promo-large-p {
+	display: none;
+}
+
 .promo-text-large {
 	position: relative;
 	z-index: 100;
 	bottom: 80px;
 }
 
+.promo-btn {
+	font-size: .75rem;
+}
+
+
 @media only screen and (min-width:30em) {
 	.promo-text-large {
-		bottom: 200px;
+		bottom: 150px;
 	}
+	
+	.promo-large-p {
+		display: block;
+	}
+	
+	.promo-btn {
+		font-size: 1.25rem;
+	}
+}
 
 @media only screen and (min-width:40em) {	
 	.promo-small p {
@@ -44,6 +62,7 @@
 		bottom: 375px;
 		font-size: 3rem;
 	}
+	
 	
 	.promo-text-large p {
 		font-size: 1.2656rem;
