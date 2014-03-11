@@ -5,6 +5,17 @@
  	padding: 1rem;
 }
 
+.promo-small p {
+	display: none;
+	background-color: #ECF0F1;
+	padding: 2em;
+	border-radius: 5px;
+}
+
+.promo-small h4 {
+	margin-top: 1.25rem;
+}
+
 .promo-text-small {
 	position: relative;
 	z-index: 100;
@@ -21,8 +32,13 @@
 	.promo-text-large {
 		bottom: 200px;
 	}
-	
 
+@media only screen and (min-width:40em) {	
+	.promo-small p {
+		display: block;
+	}
+}
+	
 @media only screen and (min-width:65em) {
 	.promo-text-large {
 		bottom: 375px;

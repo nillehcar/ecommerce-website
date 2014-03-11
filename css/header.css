@@ -32,12 +32,12 @@
 }
 
 .banner {
-	background: url(../images/banner.jpg) no-repeat center center;
+	background: url(../images/banner2.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 5em 2em 2em;
 	text-align: center;
 }
 	
 .banner h2 {
-	color: #2C3E50;
+	color: white;
 }
