@@ -52,6 +52,12 @@
 		  <input class="searchField" type="text" name="search" autocomplete="off" />
 		</div>
 	
+		{% if page.showbanner %}
+		<div class="banner">
+			<h2>{{page.bannertext}}</h2>
+		</div>
+		{% endif %}
+	
 	</div>
 </header>
 

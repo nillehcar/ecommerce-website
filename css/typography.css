@@ -183,3 +183,7 @@ ul li:before {
 .uppercase {
 	text-transform: uppercase;
 }
+
+.hide {
+	display: none;
+}
