@@ -1,0 +1,23 @@
+---
+layout: default
+title: Order
+---
+
+<div class="center">
+	<h1>Order</h1>
+		<p>Select from our signature flavours</p>
+</div>
+
+
+<div class="grid">
+		{% for donuts in site.pages %}
+			{% if donuts.category == 'donuts' %}
+		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
+				<a class="brand-family" href="{{site.baseurl}}{{donuts.url}}">
+				<img class="img-flex"src="{{site.baseurl}}/images/{{donuts.image}}" alt="">
+					{{donuts.name}}
+				</a>
+		</div>
+					{% endif %}
+		{% endfor %}
+</div>
