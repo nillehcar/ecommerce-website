@@ -1,9 +1,6 @@
 ---
 layout: order
 category: create
-name: ORIGINAL
+type3: ORIGINAL
 image: mini-donuts.jpg
-type: vanilla
-type2: chocolate
-type3: sour cream
 ---

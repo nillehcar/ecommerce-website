@@ -1,10 +1,7 @@
 ---
-layout: order
+layout: create
 category: create
-name: FILLED DONUTS
+type2: FILLED DONUTS
 image: filled-donuts.jpg
-type: jelly 
-type2: custard
-type3: cream
 ---
 

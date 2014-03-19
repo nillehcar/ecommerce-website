@@ -1,0 +1,36 @@
+<div class="side-nav">
+
+	<ul>
+			<li class="list-group-item brand-color uppercase brand-family">
+				Order</li>
+			<li class="list-group-item micro">
+				<a class="e {% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/order/savory">Savory</a>
+			</li>
+		
+			<li class="list-group-item micro">
+				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/order/sweet">Sweet</a>
+			</li>
+
+			<li class="list-group-item micro">
+				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/order/vegan">Vegan</a>
+			</li>
+	</ul>
+
+
+	<ul>
+			<li class="list-group-item brand-color uppercase brand-family">
+				Create</li>
+			<li class="list-group-item micro">
+				<a class="micro {% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/create/donut-holes">Donut holes</a>
+			</li>
+		
+			<li class="list-group-item micro">
+				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/create/filled-donuts">Filled Donuts</a>
+			</li>
+
+			<li class="list-group-item micro">
+				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/create/original">Original</a>
+			</li>
+	</ul>
+
+</div>

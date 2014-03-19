@@ -1,9 +1,6 @@
 ---
-layout: order
+layout: create
 category: create
-name: DONUT HOLES
+type: DONUT HOLES
 image: donut-holes.jpg
-type: vanilla
-type2: chocolate
-type3: sour cream
 ---

@@ -3,6 +3,12 @@
 	padding-bottom: 2rem;
 }
 
+.product-grid {
+	overflow: hidden;
+	padding-bottom: 2rem;
+	padding-left: 11rem;
+}
+
 .unit {
 	background-color: #fff;
 	float: left;
