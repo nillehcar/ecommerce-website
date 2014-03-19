@@ -2,75 +2,52 @@
 layout: default
 ---
 
-<h1 class="center">{{page.name}}</h1>
+<h1 class="center">Order</h1>
 
 <!--SIDE NAV-->
-<div class="side-nav">
-
-	<ul>
-			<li class="list-group-item brand-color uppercase brand-family">
-				Order</li>
-			<li class="list-group-item micro">
-				<a class="e {% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/order/savory">Savory</a>
-			</li>
-		
-			<li class="list-group-item micro">
-				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/order/sweet">Sweet</a>
-			</li>
-
-			<li class="list-group-item micro">
-				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/order/vegan">Vegan</a>
-			</li>
-	</ul>
-
-
-	<ul>
-			<li class="list-group-item brand-color uppercase brand-family">
-				Create</li>
-			<li class="list-group-item micro">
-				<a class="micro {% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/create/donut-holes">Donut holes</a>
-			</li>
-		
-			<li class="list-group-item micro">
-				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/create/filled-donuts">Filled Donuts</a>
-			</li>
-
-			<li class="list-group-item micro">
-				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/create/original">Original</a>
-			</li>
-	</ul>
-
-</div>
+{% include side-nav.html %}
 
 <!--PRODUCT IMAGES-->
-<div class="grid">
-	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
-		<div class="promo-small">
-<img class="img-flex" src="/ecommerce-website/images/create.jpg" alt="">
-	<div class="gutter center">
-	<h4 class="brand-color">{{page.type}}</h4>
-	<p class="milli">{{page.desc}}</p>
-	</div>
-</div>
-	</div>
+<div class="product-grid">
+	<h4 class="center">Savory</h4>
+		{% for savory in site.pages %}
+			{% if savory.category == 'savory' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
-		<div class="promo-small">
-<img class="img-flex" src="/ecommerce-website/images/select.jpg" alt="">
-	<div class="gutter center">
-	<h4 class="brand-color">{{page.type2}}</h4>
-	<p class="milli">{{page.desc2}}</p>
-	</div>
+				<a class="brand-family" href="{{site.baseurl}}{{savory.url}}">
+				<img class="img-flex"src="{{site.baseurl}}/images/{{savory.image}}" alt="">
+					{{savory.name}}
+				</a>
+		</div>
+					{% endif %}
+		{% endfor %}
 </div>
-	</div>
+
+<div class="product-grid">
+	<h4 class="center">Sweet</h4>
+		{% for sweet in site.pages %}
+			{% if sweet.category == 'sweet' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
-		<div class="promo-small">
-<img class="img-flex" src="/ecommerce-website/images/win.jpg" alt="">
-	<div class="gutter center">
-	<h4 class="brand-color">{{page.type3}}</h4>
-	<p class="milli">{{page.desc3}}</p>
-	</div>
+				<a class="brand-family" href="{{site.baseurl}}{{sweet.url}}">
+				<img class="img-flex"src="{{site.baseurl}}/images/{{sweet.image}}" alt="">
+					{{sweet.name}}
+				</a>
+		</div>
+					{% endif %}
+		{% endfor %}
 </div>
-	</div>
+
+<div class="product-grid">
+	<h4 class="center">Vegan</h4>
+		{% for vegan in site.pages %}
+			{% if vegan.category == 'vegan' %}
+		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
+				<a class="brand-family" href="{{site.baseurl}}{{vegan.url}}">
+				<img class="img-flex"src="{{site.baseurl}}/images/{{vegan.image}}" alt="">
+					{{vegan.name}}
+				</a>
+		</div>
+					{% endif %}
+		{% endfor %}
 </div>
 
 {{content}}
