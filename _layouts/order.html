@@ -9,7 +9,7 @@ layout: default
 
 <!--PRODUCT IMAGES-->
 <div class="product-grid">
-	<h4 class="center">Savory</h4>
+	<h4 id="savory" class="center">Savory</h4>
 		{% for savory in site.pages %}
 			{% if savory.category == 'savory' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
@@ -23,7 +23,7 @@ layout: default
 </div>
 
 <div class="product-grid">
-	<h4 class="center">Sweet</h4>
+	<h4 id="sweet" class="center">Sweet</h4>
 		{% for sweet in site.pages %}
 			{% if sweet.category == 'sweet' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
@@ -37,7 +37,7 @@ layout: default
 </div>
 
 <div class="product-grid">
-	<h4 class="center">Vegan</h4>
+	<h4 id="vegan" class="center">Vegan</h4>
 		{% for vegan in site.pages %}
 			{% if vegan.category == 'vegan' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
