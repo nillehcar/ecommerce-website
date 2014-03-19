@@ -1,6 +1,6 @@
 ---
 layout: order
 category: create
-type3: ORIGINAL
+name: ORIGINAL
 image: mini-donuts.jpg
 ---

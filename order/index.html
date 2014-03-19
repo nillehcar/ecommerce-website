@@ -29,12 +29,12 @@ title: Order
 
 
 <div class="grid">
-		{% for donuts in site.pages %}
-			{% if donuts.category == 'create' %}
+		{% for create in site.pages %}
+			{% if create.category == 'create' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
-				<a class="brand-family" href="{{site.baseurl}}{{donuts.url}}">
-				<img class="img-flex"src="{{site.baseurl}}/images/{{donuts.image}}" alt="">
-					{{donuts.name}}
+				<a class="brand-family" href="{{site.baseurl}}{{create.url}}">
+				<img class="img-flex"src="{{site.baseurl}}/images/{{create.image}}" alt="">
+					{{create.name}}
 				</a>
 		</div>
 					{% endif %}

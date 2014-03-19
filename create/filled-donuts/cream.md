@@ -7,10 +7,12 @@ image: filled-donuts.jpg
 
 #####Cream Filling
 
-Our vanilla cake base incorporates real vanilla beans and vanilla extract a delicious flavour!
+Our cream filling uses local dairy whipped up to the perfect texture.
 
-**Box of 15:** $4.00
-**Box of 30:** $8.00
-**Box of 60:** $16.00
+**Box of 6:** $13.00
+
+**Box of 12:** $26.00
+
+**Box of 24:** $50.00
 
 ![van hole] (http://cdn2-www.momtastic.com/assets/uploads/2013/12/SP_Dough04.jpg)

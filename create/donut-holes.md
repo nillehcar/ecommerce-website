@@ -1,6 +1,6 @@
 ---
 layout: create
 category: create
-type: DONUT HOLES
+name: DONUT HOLES
 image: donut-holes.jpg
 ---
