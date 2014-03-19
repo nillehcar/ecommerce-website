@@ -5,8 +5,14 @@ name: Maple & bacon
 image: sweet.jpg
 ---
 
-##Cheddar and Bacon Donut
+##Maple Bacon
 
-Our cheddar and bacon donuts are bestsellers. They are made with local Ontario cheddar and bacon.
+A canadian favourite! Our maple bacon donut has a maple flavoured cake base, maple glaze made from real maple syrup, and candied bacon bits.
 
-![cheddar and bacon] (http://seattlebagel.com/wp-content/uploads/2010/10/1068814037_vuEe2-L.jpg)
+**Box of 6:** $12.00
+
+**Box of 12:** $24.00
+
+**Box of 24:** $48.00
+
+![maple bacon] (http://www.shutterbean.com/wp-content/uploads/2013/11/maplebacondoughnuts-003.jpg)
