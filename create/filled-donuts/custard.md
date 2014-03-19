@@ -1,7 +1,7 @@
 ---
 layout: md
 category: jelly
-name: custard
+name: Jelly
 image: filled-donuts.jpg
 ---
 #####Custard Filled
