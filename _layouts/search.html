@@ -30,12 +30,12 @@
 
 <header>
 	
-	<a class="no-underline" href="{{site.baseurl}}"> <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt=""> </a>
+	<a class="no-underline" href="{{site.baseurl}}"> <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt=""></a>
 	
 	<div class="nav center brand-family">
 		<ul>
 			<li class="list-group-item-inline milli">
-			<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}">Home</a>
+			<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/index/">Home</a>
 		
 			<li class="list-group-item-inline milli">
 				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/about/">About</a>
@@ -47,12 +47,10 @@
 				<a class="{% if page.url == '/' %}current{% endif %} uppercase"href="#" >Contact</a>
 			</li>
 		</ul>
-		
-	<form method="get" action="{{site.baseurl}}/search/">
+	
 		<div class="search-field">
 		  <input class="searchField" type="text" name="search" autocomplete="off" />
 		</div>
-	</form>
 	
 		{% if page.showbanner %}
 		<div class="banner">
@@ -63,9 +61,31 @@
 	</div>
 </header>
 
+<div class="search-nav">
 
+	<ul>
+			<li class="list-group-item brand-color uppercase brand-family">
+				Sort by</li>
+			<li class="list-group-item micro">
+				<a class="e {% if page.url == '/' %}current{% endif %} uppercase" href="#">Alphabetic</a>
+			</li>
+		
+			<li class="list-group-item micro">
+				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="#">Price</a>
+			</li>
+
+			<li class="list-group-item micro">
+				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="#">Category</a>
+			</li>
+	</ul>
+
+
+</div>
+
+<div class="product-grid">
 {{content}}
 
+</div>
 
 <footer class="center">
 		
