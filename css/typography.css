@@ -133,13 +133,17 @@ del, s {
 
 table {
 	width: 80%;
-	margin: auto;
 	padding: .5rem;
 }
 
-td, th {
+td {
 	text-align: center;
 	padding: .25rem;
+}
+
+th {
+	text-align: center;
+	padding: .5rem;
 }
 
 tr:nth-child(even), thead {
