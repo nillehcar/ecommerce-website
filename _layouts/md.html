@@ -30,12 +30,12 @@
 
 <header>
 	
-	<img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="">
+	<a href="{{site.baseurl}}/index/"> <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt=""></a>
 	
 	<div class="nav center brand-family">
 		<ul>
 			<li class="list-group-item-inline milli">
-			<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl/index/l}}">Home</a>
+			<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/index/">Home</a>
 		
 			<li class="list-group-item-inline milli">
 				<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}/about/">About</a>
@@ -100,6 +100,9 @@
 
 <div class="product-grid">
 {{content}}
+
+<a class="btn" href="{{site.baseurl}}/cart/">Order</a>
+
 </div>
 
 <footer class="center">
