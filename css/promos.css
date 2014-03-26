@@ -29,7 +29,7 @@
 .promo-text-large {
 	position: relative;
 	z-index: 100;
-	bottom: 80px;
+	bottom: 50px;
 }
 
 .promo-btn {
@@ -39,7 +39,6 @@
 
 @media only screen and (min-width:30em) {
 	.promo-text-large {
-		bottom: 150px;
 	}
 	
 	.promo-large-p {
@@ -59,8 +58,8 @@
 	
 @media only screen and (min-width:65em) {
 	.promo-text-large {
-		bottom: 375px;
 		font-size: 3rem;
+		bottom: 120px;
 	}
 	
 	
