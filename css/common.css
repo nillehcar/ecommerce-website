@@ -64,3 +64,7 @@ hr {
 		margin-right: 130px;
 	}
 }
+
+.block-link {
+	display: block;
+}

@@ -93,10 +93,16 @@ a:visited {
 }
 
 a:hover,
-a:focus,
 a:active {
 	color: #ED4E3E;
 	border-bottom: 4px solid #ED4E3E;
+	outline: none;
+}
+
+a:focus,
+input:focus,
+button:focus {
+	outline: 1px dashed #E74C3C;;
 }
 
 blockquote {

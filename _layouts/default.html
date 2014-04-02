@@ -13,8 +13,6 @@
 	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/embed.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
@@ -22,17 +20,16 @@
 	<link href="{{site.baseurl}}/css/forms.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/product-details.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/promos.css" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
+<header role="banner">
 	
 	<a class="no-underline" href="{{site.baseurl}}"> <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt=""> </a>
 	
-	<div class="nav center brand-family">
+	<div class="nav center brand-family" role="navigation">
 		<ul>
 			<li class="list-group-item-inline milli">
 			<a class="{% if page.url == '/' %}current{% endif %} uppercase" href="{{site.baseurl}}">Home</a>
@@ -48,9 +45,9 @@
 			</li>
 		</ul>
 		
-	<form method="get" action="{{site.baseurl}}/search/">
+	<form method="get" action="{{site.baseurl}}/search/" role="search">
 		<div class="search-field">
-		  <input class="searchField" type="text" name="search" autocomplete="off" />
+		  <input class="searchField" type="text" name="search" autocomplete="off" title="search-bar"/>
 		</div>
 	</form>
 	
@@ -67,7 +64,7 @@
 {{content}}
 
 
-<footer class="center">
+<footer class="center" role="contentinfo">
 		
 		<div class="social-links">
 			<ul class="social">

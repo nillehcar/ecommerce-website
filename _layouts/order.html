@@ -13,7 +13,7 @@ layout: default
 		{% for savory in site.pages %}
 			{% if savory.category == 'savory' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
-				<a class="brand-family" href="{{site.baseurl}}{{savory.url}}">
+				<a class="brand-family block-link" href="{{site.baseurl}}{{savory.url}}">
 				<img class="img-flex"src="{{site.baseurl}}/images/{{savory.image}}" alt="">
 					{{savory.name}}
 				</a>
@@ -27,7 +27,7 @@ layout: default
 		{% for sweet in site.pages %}
 			{% if sweet.category == 'sweet' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
-				<a class="brand-family" href="{{site.baseurl}}{{sweet.url}}">
+				<a class="brand-family block-link" href="{{site.baseurl}}{{sweet.url}}">
 				<img class="img-flex"src="{{site.baseurl}}/images/{{sweet.image}}" alt="">
 					{{sweet.name}}
 				</a>
@@ -41,7 +41,7 @@ layout: default
 		{% for vegan in site.pages %}
 			{% if vegan.category == 'vegan' %}
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter">
-				<a class="brand-family" href="{{site.baseurl}}{{vegan.url}}">
+				<a class="brand-family block-link" href="{{site.baseurl}}{{vegan.url}}">
 				<img class="img-flex"src="{{site.baseurl}}/images/{{vegan.image}}" alt="">
 					{{vegan.name}}
 				</a>
