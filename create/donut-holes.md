@@ -2,5 +2,5 @@
 layout: create
 category: create
 name: DONUT HOLES
-image: donut-holes.jpg
+image: donut-holes.svg
 ---

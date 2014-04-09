@@ -2,7 +2,7 @@
 layout: md
 category: sweet
 name: Maple & bacon
-image: sweet.jpg
+image: mb.svg
 ---
 
 ##Maple Bacon

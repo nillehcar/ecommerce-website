@@ -2,7 +2,7 @@
 layout: md
 category: savory
 name: Roasted Garlic & herbs
-image: savory-donut.jpg
+image: garlic.svg
 ---
 
 ##Roasted Garlic & Herb Donut

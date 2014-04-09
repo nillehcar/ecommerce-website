@@ -2,7 +2,7 @@
 layout: md
 category: savory
 name: Cheddar & bacon
-image: savory-donut.jpg
+image: cheddar.svg
 page: savory
 ---
 

@@ -2,7 +2,7 @@
 layout: md
 category: vegan
 name: Chocolate & toasted coconut
-image: vegan-donut.jpg
+image: coco.svg
 ---
 
 ##Chocolate & toasted coconut

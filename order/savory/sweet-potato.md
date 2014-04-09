@@ -2,7 +2,7 @@
 layout: md
 category: savory
 name: Sweet potato & brown butter
-image: savory-donut.jpg
+image: sweet-potato.svg
 ---
 
 ##Sweet potato & brown butter donut

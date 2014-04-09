@@ -2,7 +2,7 @@
 layout: md
 category: vegan
 name: Lemon Poppyseed
-image: vegan-donut.jpg
+image: poppy.svg
 ---
 
 ##Lemon Poppyseed

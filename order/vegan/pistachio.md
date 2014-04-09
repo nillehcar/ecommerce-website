@@ -2,7 +2,7 @@
 layout: md
 category: vegan
 name: Pistachio
-image: vegan-donut.jpg
+image: pistachio.svg
 ---
 
 ##Pistachio Donut

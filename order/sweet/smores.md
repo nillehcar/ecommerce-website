@@ -2,7 +2,7 @@
 layout: md
 category: sweet
 name: Smores
-image: sweet.jpg
+image: smores.svg
 ---
 
 ##Smores
