@@ -2,7 +2,7 @@
 layout: md
 category: original
 name: Sour Cream
-image: plain.jpg
+image: sour-orig.svg
 ---
 
 #####Sour Cream Cake Base

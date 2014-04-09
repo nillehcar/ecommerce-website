@@ -2,7 +2,7 @@
 layout: md
 category: holes
 name: Chocolate
-image: donut-holes.jpg
+image: choco-holes.svg
 ---
 #####Chocolate Cake Base
 

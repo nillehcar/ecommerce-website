@@ -2,7 +2,7 @@
 layout: md
 category: jelly
 name: Jelly
-image: filled-donuts.jpg
+image: jelly.svg
 ---
 #####Custard Filled
 

@@ -2,7 +2,7 @@
 layout: md
 category: original
 name: Vanilla
-image: plain.jpg
+image: van-orig.svg
 ---
 
 #####Vanilla Cake Base

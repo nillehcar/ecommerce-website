@@ -2,7 +2,7 @@
 layout: md
 category: original
 name: Chocolate
-image: plain.jpg
+image: choco-orig.svg
 ---
 #####Chocolate Cake Base
 

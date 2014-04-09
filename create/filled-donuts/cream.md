@@ -2,7 +2,7 @@
 layout: md
 category: jelly
 name: Cream
-image: filled-donuts.jpg
+image: cream.svg
 ---
 
 #####Cream Filling

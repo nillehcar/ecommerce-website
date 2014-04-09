@@ -2,7 +2,7 @@
 layout: md
 category: holes
 name: Vanilla
-image: donut-holes.jpg
+image: vanilla-holes.svg
 ---
 
 #####Vanilla Cake Base

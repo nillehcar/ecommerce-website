@@ -2,7 +2,7 @@
 layout: md
 category: jelly
 name: Custard
-image: filled-donuts.jpg
+image: custard.svg
 ---
 
 #####Jelly Filled

@@ -2,7 +2,7 @@
 layout: md
 category: holes
 name: Sour Cream
-image: donut-holes.jpg
+image: sour-holes.svg
 ---
 
 #####Sour Cream Cake Base
