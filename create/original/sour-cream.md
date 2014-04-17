@@ -15,4 +15,4 @@ Our old-fashioned sour cream cake base uses buttermilk and sour cream in its bat
 
 **Box of 24:** $40.00
 
-![donut holes] (http://img4-1.myrecipes.timeinc.net/i/recipes/ck/10/04/maple-doughnut-holes-ck-l.jpg)
+![donut holes]({{site.baseurl}}/images/sour-orig.svg)

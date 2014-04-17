@@ -15,4 +15,4 @@ Our vegan cake base uses almond milk and apple sauce as binders. Our lemon poppy
 
 **Box of 24:** $50.00
 
-![lemon pop] (http://media-cache-ec0.pinimg.com/236x/e2/db/86/e2db8632a8c42e5bed78f9033642e6de.jpg)
+![lemon pop]({{site.baseurl}}/images/poppy.svg)

@@ -15,4 +15,4 @@ Our vegan cake base uses almond milk and apple sauce as binders.
 
 **Box of 24:** $50.00
 
-![choco coco] (http://soletshangout.com/wp-content/uploads/2013/01/donuts-7585blog.jpg)
+![choco coco]({{site.baseurl}}/images/coco.svg)

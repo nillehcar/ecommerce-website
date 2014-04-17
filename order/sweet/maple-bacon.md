@@ -15,4 +15,4 @@ A canadian favourite! Our maple bacon donut has a maple flavoured cake base, map
 
 **Box of 24:** $48.00
 
-![maple bacon] (http://www.shutterbean.com/wp-content/uploads/2013/11/maplebacondoughnuts-003.jpg)
+![maple bacon]({{site.baseurl}}/images/mb.svg)

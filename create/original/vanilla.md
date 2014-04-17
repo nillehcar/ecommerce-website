@@ -15,4 +15,4 @@ Our vanilla cake base incorporates real vanilla beans and vanilla extract a deli
 
 **Box of 24:** $40.00
 
-![van hole] (http://cdn2-www.momtastic.com/assets/uploads/2013/12/SP_Dough04.jpg)
+![van hole]({{site.baseurl}}/images/van-orig.svg/)

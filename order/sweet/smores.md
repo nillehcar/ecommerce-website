@@ -15,4 +15,4 @@ Our smores donut is instant comfort food! A crumbly graham cracker cake topped w
 
 **Box of 24:** $48.00
 
-![smores] (http://photo.foodgawker.com/wp-content/uploads/2013/06/1383659.jpeg)
+![smores]({{site.baseurl}}/images/smores.svg)

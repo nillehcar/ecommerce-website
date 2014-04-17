@@ -15,4 +15,4 @@ Our sweet potato and brown butter donut is a healthy alternative using whole whe
 
 **Box of 24:** $48.00
 
-![potato donut] (http://1.bp.blogspot.com/-ma5CHhxSx-U/Ubm_t78Wu2I/AAAAAAAAC_g/ZkYUto0Cigk/s1600/Croq+Sweet+potato+donuts-2.jpg)
+![potato donut]({{site.baseurl}}/images/sweet-potato.svg)

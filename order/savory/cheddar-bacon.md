@@ -16,4 +16,4 @@ Our cheddar and bacon donuts are bestsellers. They are made with local Ontario c
 
 **Box of 24:** $48.00
 
-![cheddar and bacon] (http://seattlebagel.com/wp-content/uploads/2010/10/1068814037_vuEe2-L.jpg)
+![cheddar and bacon]({{site.baseurl}}/images/cheddar.svg)

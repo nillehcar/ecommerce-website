@@ -15,4 +15,4 @@ Our roasted garlic & herb donuts have great flavour. They are made with oven roa
 
 **Box of 24:** $48.00
 
-![roasted garlic] (http://heathereatsalmondbutter.com/wp-content/uploads/2011/11/SavoryDonuts.jpg)
+![roasted garlic]({{site.baseurl}}/images/garlic.svg)
