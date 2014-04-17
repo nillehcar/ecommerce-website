@@ -1,0 +1,16 @@
+# humanstxt.org
+
+/* TEAM /*
+
+Designer & Developer: Rachel Lin
+Site: http://nillehcar.github.io/ecommerce-website/
+Location: Ottawa, Canada
+
+/* THANKS /*
+Thomas for all the help!
+
+/* SITE /*
+Last update: 2014/04/17
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: Adobe Dreamweaver, Sublime Text 2, Github

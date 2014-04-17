@@ -1,0 +1,8 @@
+# For domain: http://nillehcar.github.io/ecommerce-website
+
+Sitemap: http://nillehcar.github.io/ecommerce-website/sitemap.xml
+
+User-agent: *
+
+Disallow: /_includes/
+Disallow: /_site/
