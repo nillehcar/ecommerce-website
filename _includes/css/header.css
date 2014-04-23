@@ -12,10 +12,17 @@
 .side-nav {
 	padding-left: 3rem;
 	padding-right: 2.5rem;
-	padding-bottom: 10rem;
+	padding-bottom: 2rem;
 	float: left;
 	position: fixed;
 	background-color: white;
+}
+
+@media only screen and (min-width:40em) {
+	.side-nav {
+
+		padding-bottom: 10rem;
+	}
 }
 
 .search-nav {
