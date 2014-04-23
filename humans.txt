@@ -9,6 +9,10 @@ Location: Ottawa, Canada
 /* THANKS /*
 Thomas for all the help!
 
+/* CREDITS /*
+Logo and digital art created by Rachel Lin
+Photographs by Jay Martinez and Rocio Martinez
+
 /* SITE /*
 Last update: 2014/04/17
 Standards: HTML5, CSS3
